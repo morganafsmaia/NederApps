@@ -25,6 +25,6 @@
 var express = require('express');
 var app = express();
 
-app.use(express.static('D:/morga/Documents/BSSA/Assignments/Assignment_week3/Business_website_node'));
+app.use(express.static('./src'));
 
 var server = app.listen(3000);
